@@ -10,8 +10,5 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val result = Screen.getScreenDP(this)
-        Toast.makeText(this, result, Toast.LENGTH_LONG).show()
-
     }
 }
